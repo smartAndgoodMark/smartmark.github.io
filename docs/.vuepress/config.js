@@ -34,7 +34,7 @@ module.exports = {
       //导航栏设置
       { text: "主页", link: "/", icon: "reco-home" },
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
-      { text: "订阅", link: "https://tsanfer.xyz/rss.xml", icon: "reco-rss" },
+      { text: "订阅", link: "https://smartmark-pro.com/rss.xml", icon: "reco-rss" },
       {
         text: "联系",
         icon: "reco-message",
@@ -158,8 +158,6 @@ module.exports = {
       "social-share", //分享插件
       {
         networks: ["qq", "weibo", "twitter", "facebook", "email"], //分享类型
-        email: "a1124851454@gmail.com", //email地址
-        twitterUser: "a1124851454", //Twitter账号
       },
     ],
     [
