@@ -1,1 +1,1 @@
-### smartmark's blog [website](https://smartmark.gitlab.io)
+### smartmark's blog [website](https://smartmark-pro.com)

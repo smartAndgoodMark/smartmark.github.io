@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "smartmark's blog",
   "main": "index.js",
-  "repository": "http://smartmark.gitlab.io",
+  "repository": "https://github.com/smartmark-pro/smartmark-blog",
   "author": "smartmark",
   "license": "MIT",
   "scripts": {

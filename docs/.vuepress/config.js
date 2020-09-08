@@ -41,13 +41,14 @@ module.exports = {
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/smartmark",
+            link: "https://github.com/smartmark-pro",
             icon: "reco-github",
           },
         ],
       },
     ],
     sidebar: "auto", //在所有页面中启用自动生成侧栏
+    // 暂时还没有做备案，晚点弄一认证
     // record: "蜀ICP备20005033号-1",
     // recordLink: "https://icp.chinaz.com/tsanfer.xyz",
     // cyberSecurityRecord: "川公网安备 51110202000301号",
@@ -164,8 +165,8 @@ module.exports = {
     [
       "@vuepress-reco/vuepress-plugin-rss", //RSS插件
       {
-        site_url: "https://tsanfer.xyz", //网站地址
-        copyright: "Tsanfer", //版权署名
+        site_url: "https://smartmark-pro.com", //网站地址
+        copyright: "smartmark", //版权署名
       },
     ],
     ["flowchart"], // 支持流程图

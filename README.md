@@ -1,1 +1,1 @@
-### smartmark's blog [website](https://www.smartmark.top)
+### smartmark's blog [website](https://www.smartmark-pro.com)
