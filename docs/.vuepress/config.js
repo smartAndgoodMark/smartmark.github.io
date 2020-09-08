@@ -6,7 +6,10 @@ module.exports = {
   title: "SmartMark's Blog", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: "人生若只如初见", // meta 中的描述文字，用于SEO
   head: [
-    ["link", { rel: "icon", href: "/favicon.svg" }], //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    //["link", { rel: "icon", href: "/favicon.svg" }], //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
+    // ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" }],
+    // ["script", { src: "scripts/demo.js" }]
     [
       "meta",
       {
@@ -15,9 +18,10 @@ module.exports = {
       },
     ], //在移动端，搜索框在获得焦点时会放大
   ],
-
-  theme: "reco", //选择主题‘reco’
+  //base: '/reco-example-test/',
+  theme: "reco", //选择主题‘reco
   themeConfig: {
+    codeTheme: 'tomorrow',
     type: "blog", //选择类型博客
     fullscreen: true,
     blogConfig: {
@@ -57,10 +61,15 @@ module.exports = {
     startYear: "2020", // 项目开始时间，只填写年份
     lastUpdated: "最后更新时间", // string | boolean
     author: "smarmark",
+    logo: '/head.png',
     authorAvatar: "/head.png", //作者头像
     mode: "auto", //默认显示白天模式
     modePicker: true,
+    // 侧边
+    subSidebar: 'auto',
+    sidebarDepth: 4,
     // 评论设置
+
     valineConfig: {
       appId: process.env.LEANCLOUD_APP_ID,
       appKey: process.env.LEANCLOUD_APP_KEY,

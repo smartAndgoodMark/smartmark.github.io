@@ -7,6 +7,7 @@ tags:
 date: 2020-09-03
 isComment: true
 sidebar: true
+publish: false
 ---
 
 [leetcode 2020秋季编程赛](https://leetcode-cn.com/contest/season/2020-fall/?utm_campaign=contest_2020_fall&utm_medium=leetcode_contest_2020_fall_contest_banner&utm_source=contest&gio_link_id=QReO3Y3o)
@@ -19,6 +20,7 @@ sidebar: true
 
 - 不会告知错误样例
 - 用python可能不是一个好的选择
+>待续
 
 ####  个人赛题目
 
