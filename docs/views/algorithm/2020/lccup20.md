@@ -10,7 +10,8 @@ sidebar: true
 ---
 
 [leetcode 2020秋季编程赛](https://leetcode-cn.com/contest/season/2020-fall/?utm_campaign=contest_2020_fall&utm_medium=leetcode_contest_2020_fall_contest_banner&utm_source=contest&gio_link_id=QReO3Y3o)
-![./images/leetcode2020.png]
+
+![图片](../../images/leetcode2020.png)
 
 #### 准备
 
