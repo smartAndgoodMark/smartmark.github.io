@@ -1,11 +1,12 @@
 const themeConfig = require('./config/theme/')
+const dotenv = require("dotenv")
+dotenv.config()
 
 module.exports = {
-  // host: '0.0.0.0',  // 生成网页地址（本地调试使用）
-  // port: '22335',  // 生成网页端口（本地调试使用）
   title: "SmartMark's Blog", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: "人生若只如初见", // meta 中的描述文字，用于SEO
   head: [
+    ['script', { type: 'text/javascript', src: '/assets/js/baidu.js' }],// 数目统计, 但是当前好像不太行
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     //["link", { rel: "icon", href: "/favicon.svg" }], //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
     // ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" }],
@@ -67,12 +68,15 @@ module.exports = {
     modePicker: true,
     // 侧边
     subSidebar: 'auto',
-    sidebarDepth: 4,
+    sidebarDepth: 2,
     // 评论设置
 
     valineConfig: {
-      appId: process.env.LEANCLOUD_APP_ID,
-      appKey: process.env.LEANCLOUD_APP_KEY,
+      appId: process.env.LEANCLOUD_APP_ID,// your appId
+      appKey: process.env.LEANCLOUD_APP_KEY, // your appKey
+      recordIP: true,
+      placeholder: '填写邮箱地址可以及时收到回复噢...',
+      visitor: true,
     },
   },
 
@@ -182,5 +186,12 @@ module.exports = {
     ["reading-progress"], // 阅读进度条
     ["vuepress-plugin-code-copy", true], //一键复制代码插件
     ["vuepress-plugin-auto-sidebar"], //自动侧边栏
+    ["vuepress-plugin-baidu-autopush"],//百度流量统计
+    ["@vuepress-reco/vuepress-plugin-kan-ban-niang",
+      {
+        theme: ['wanko', 'blackCat', 'whiteCat', 'haru1', 'haru2', 'shizuku', 'z16'],
+        clean: false,
+      }],
+["@vuepress-reco/back-to-top", true], 
   ],
 };
