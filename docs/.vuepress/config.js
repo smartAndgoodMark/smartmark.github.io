@@ -19,7 +19,7 @@ module.exports = {
       },
     ], //在移动端，搜索框在获得焦点时会放大
   ],
-  base: '/smartmark-blog/',
+  //base: '/smartmark-blog/',
   theme: "reco", //选择主题‘reco
   themeConfig: {
     codeTheme: 'tomorrow',
