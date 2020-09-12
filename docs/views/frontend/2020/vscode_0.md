@@ -7,6 +7,7 @@ tags:
  - 编辑器
  - 快捷键
  - 学习备忘录
+ - 开放思考题
 date: 2020-09-08
 isComment: true
 sidebar: true
