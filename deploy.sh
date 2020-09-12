@@ -11,7 +11,7 @@ cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 echo '把域名放到blo.smartmark-pro.com'
-echo 'www.smartmark-pro.com' > CNAME
+echo 'smartmark-pro.com' > CNAME
 
 git init
 git add -A
@@ -21,7 +21,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:smartmark-pro/smartmark-pro.github.io.git master:gh-pages
+git push -f git@github.com:smartmark-pro/smartmark-blog.github.io.git master:gh-pages
 # 比如
 # git push -f git@github.com:Tsanfer/VuePress-GithubPages-TravisCI.git master:gh-pages
 
