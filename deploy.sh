@@ -11,8 +11,7 @@ cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 echo '把域名放到blo.smartmark-pro.com'
-echo 'blog.smartmark-pro.com' > CNAME
-cat CNAME
+echo 'www.smartmark-pro.com' > CNAME
 
 git init
 git add -A
