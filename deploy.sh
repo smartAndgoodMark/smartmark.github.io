@@ -10,8 +10,8 @@ yarn build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-echo '把域名放到blo.smartmark-pro.com'
-echo 'smartmark-pro.com' > CNAME
+echo '把域名放到blog.smartmark-pro.com'
+echo 'blog.smartmark-pro.com' > CNAME
 
 git init
 git add -A

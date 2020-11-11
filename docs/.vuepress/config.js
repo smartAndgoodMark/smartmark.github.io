@@ -39,7 +39,8 @@ module.exports = {
       //导航栏设置
       { text: "主页", link: "/", icon: "reco-home" },
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
-      { text: "订阅", link: "https://smartmark-pro.com/rss.xml", icon: "reco-rss" },
+      { text: "订阅", link: "https://blog.smartmark-pro.com/rss.xml", icon: "reco-rss" },
+      { text: "简历", link: "https://hacknical.com/smartmark-pro/resume?locale=zh", icon: "reco-jianshu" },
       {
         text: "联系",
         icon: "reco-message",
@@ -176,7 +177,7 @@ module.exports = {
     [
       "@vuepress-reco/vuepress-plugin-rss", //RSS插件
       {
-        site_url: "https://smartmark-pro.com", //网站地址
+        site_url: "https://blog.smartmark-pro.com", //网站地址
         copyright: "smartmark", //版权署名
       },
     ],
